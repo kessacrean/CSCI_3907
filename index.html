@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+   <head>
+      <meta http-equiv="refresh" content="10">
+      <title>Plant Care System</title>
+      <style type=text/css>
+         div{
+         padding : 1%;
+         color: black;
+         background-color: 009900;
+         width: 30%;
+         border: solid black;
+         }
+
+         .upper{
+            vertical-align: top;
+         }
+
+         .lower{
+            vertical-align: bottom;
+         }
+      </style>
+   </head>
+   <body>
+      <div class = 'upper'>
+         <h1>Soil Moisture Level</h1>
+         <p>{{moisture_level}}</p>
+         <p>{{moisture_msg}}</p>
+      </div>
+
+      <div class = 'lower'>
+         <h1>Pump Water Level</h1>
+         <p>{{water_level}}</p>
+         <p>{{pump_msg}}</p>
+      </div>
+
+      <h3>The date and time on the server is: {{ time }}</h3>
+   </body>
+</html>
+
